@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-header{
+    background-color: aliceblue;
+    height: auto;
+    width: 100%;
+}
+
+
+
+header{
+    width: 100vw;
+    background-color:transparent;
+
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+.logo-img{
+    height: 90px;
+
+}
+
+nav ul{
+    list-style-type: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.4s ease-in-out ;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.btn{
+    background-color: rgb(47, 101, 251);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background-color:white ;
+    color: rgb(47, 101, 251);
+}
+
+span{
+    color:rgb(47, 101, 251);
+}
+
+
+.hero-section{
+    width: 100vw;
+}
+
+.hero-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+}
+
+.started{
+    text-decoration: none;
+    color:white ;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ready{
+    color:rgb(47, 101, 251) ;
+    font-size: 25px;
+}
+
+.fratuere{
+    padding: 0 100px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    
+}
+
+.boxes{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.boxes:hover{
+    box-shadow: 0px 5px 15px ;
+}
+
+.online-title{
+    padding: 25px;
+}
+.online-courses{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.online-box{
+    background-color: white;
+    padding:20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(177, 177, 177),2px 2px 5px rgb(177, 177, 177);
+    transition: 0.3s ease-in-out;
+}
+
+.online-box:hover{
+    box-shadow: 0px 5px 15px;
+}
+
+.online-box h2{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.online-box p{
+    color: gray;
+    margin-top:5px ;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+
+footer{
+    height: 470px;
+    background-color: grey;
+    padding: 0 100px 100px 0;
+    margin-top: 50px;
+}
+
+.footer-box{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.footer-about{
+    width: 200px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-about p{
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.footer-links h3{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-links a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: white;
+    
+
+}
+.end{
+    color: white;
+    
+}
+
+
+
